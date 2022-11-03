@@ -39,7 +39,7 @@ p {
     margin: 40px auto;
     border: 5px solid rgb(217, 0, 109);
     border-radius: 15px;
-    box-shadow: 10px 15px rgb(0 0 0 / 0.5);
+    box-shadow: 7px 7px rgb(0 0 0 / 0.3);
   }
     /*That syntax is: box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];
     /*border-radius: 15px; This adds rounded corners to the boxes
