@@ -5,6 +5,7 @@
 
 header,
 footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
     height: 150px;
     background-color: rgb(43, 43, 64);
@@ -18,6 +19,7 @@ h2 {
 }
 
 img {
+    padding-top: 10px;
     display: block;
     height: 50px;
     width: 50px;
@@ -44,7 +46,9 @@ p {
     margin: 40px auto;
     border: 5px solid rgb(217, 0, 109);
     border-radius: 15px;
-    box-shadow: 9px 9px rgba(0, 0, 0, 0.4);
+    background-color: rgb(255, 255, 255);
+    /*box-shadow: 9px 9px rgba(0, 0, 0, 0.4);*/
+    filter: drop-shadow(2mm 2mm 2mm rgb(42, 42, 42, 0.5));
   }
     /*That syntax is: box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color];
     /*border-radius: 15px; This adds rounded corners to the boxes
